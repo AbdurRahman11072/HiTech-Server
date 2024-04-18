@@ -14,7 +14,9 @@ app.use(cookieParser());
 app.use(
   cors({
     origin: ["http://localhost:5173", 
-             "https://hitech-10215.web.app"],
+             "https://hitech-10215.web.app",
+             "https://hitech-10215.firebaseapp.com"
+            ],
     credentials: true,
   })
 );
